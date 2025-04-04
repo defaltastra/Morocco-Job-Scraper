@@ -1,6 +1,5 @@
 
 
-```markdown
 # 🧑‍💻 Internship & Job Scraper API (Morocco)
 
 This project is a lightweight Flask API that scrapes internship and job postings from two popular Moroccan websites: [Stagiaires.ma](https://www.stagiaires.ma) and [MarocAnnonces.com](https://www.marocannonces.com). It returns the results in a clean JSON format, ideal for frontend integration or analysis.
@@ -51,19 +50,11 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-> Make sure your `requirements.txt` contains:
->
-> ```
-> flask
-> flask-cors
-> requests
-> beautifulsoup4
-> ```
 
 ### 4. Run the server
 
 ```bash
-python app.py
+python main.py
 ```
 
 The API will be accessible at:  
@@ -117,5 +108,5 @@ Feel free to contribute or fork!
 ## 📃 License
 
 MIT License – use freely for personal or commercial projects.
-```
+
 
